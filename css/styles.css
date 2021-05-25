@@ -1,0 +1,210 @@
+:root {
+  --first-color: #01996d;
+  --secondary-color: #245852;
+  --main-tex-color: #424242;
+  --header-color-link: #292929;
+  --second-text-color: #ffffff;
+  --text-color: #484848;
+  --first-font-famaly: 'Lato', sans-serif;
+  --second-font-famaly: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  width: 1370px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--second-font-famaly);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 1.14;
+  width: 440px;
+  height: 148px;
+  padding-top: 158px;
+  padding-bottom: 47px;
+  color: var(--first-color);
+}
+
+/* ______general styles_____ */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+
+header {
+  background-color: var(--second-text-color);
+  border-bottom: 1px solid #d6d6d6;
+}
+
+header .container {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+header a {
+  font-family: var(--first-font-famaly);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--header-color-link);
+}
+
+.logo {
+  font-family: var(--first-font-famaly);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 31px;
+  color: var(--first-color);
+  margin-right: 173px;
+}
+
+.nav-link {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 31px;
+
+  margin-right: 283px;
+}
+
+.nav-link li:not(:last-child) {
+  margin-right: 72px;
+}
+
+/* .nav-link a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--header-color-link);
+} */
+
+.button-link li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.button-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+  background: var(--first-color);
+  border: 1px var(--first-color);
+  padding: 13px 50px;
+  border-radius: 4px;
+
+  font-family: var(--first-font-famaly);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.header-button a {
+  color: var(--second-text-color);
+}
+/* ______HERO_______ */
+
+.hero {
+  background-image: url(../img/girl\ whis\ okular.jpg);
+  width: auto;
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 895px;
+}
+.hero p {
+  font-family: var(--first-font-famaly);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.45;
+  width: 420px;
+  margin-bottom: 18px;
+
+  color: var(--text-color);
+}
+
+.hero button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+
+  background: var(--first-color);
+  border: 1px solid var(--first-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: var(--first-font-famaly);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+
+  text-align: center;
+
+  color: var(--second-text-color);
+}
+
+/* _________"HOW-IT-WORK"____________ */
+
+/* ________FOOTER_________ */
+
+footer {
+  background-color: var(--secondary-color);
+  height: 654px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 95px;
+  padding-bottom: 144px;
+}
+.footer-nav a {
+  font-family: var(--first-font-famaly);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  color: var(--second-text-color);
+}
+
+.footer-logo a {
+  font-family: var(--second-font-famaly);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.4;
+  /* identical to box height */
+}
+.footer-nav li:not(:last-child) {
+  margin-bottom: 60px;
+}
