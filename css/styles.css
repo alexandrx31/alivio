@@ -33,6 +33,7 @@ h1 {
   padding-top: 158px;
   padding-bottom: 47px;
   color: var(--first-color);
+  transform: translate(-50px);
 }
 
 /* ______general styles_____ */
@@ -189,7 +190,7 @@ footer ul {
 .footer-nav a {
   font-family: var(--first-font-famaly);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 25px;
   line-height: 1.2;
   /* identical to box height */
